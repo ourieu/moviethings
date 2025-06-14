@@ -184,3 +184,18 @@ nav li:first-child{
   transform: translate(-50%, -50%);
   position: absolute;
 }
+
+.below {
+  text-align: center;
+  padding: 20px;
+  margin: 20px 0 20px 0;
+  font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+  color: #3F72AF;
+}
+
+@media (max-width: 800px) {
+  .below{
+    font-size: 10px;
+  }
+}
