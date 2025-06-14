@@ -1,0 +1,186 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+}
+
+header {
+  background-color: #3F72AF ;
+}
+
+nav ul {
+  width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav li {
+  height: 50px;
+}
+
+nav a {
+  color: #F9F7F7;
+  text-decoration: none;
+  height: 100%;
+  padding : 0 10px;
+  display: flex;
+  align-items: center;
+
+}
+nav li:first-child{
+  margin-right: auto;
+}
+
+.sidebar {
+  background-color:  #3F72AF;
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 200px;
+  z-index: 999;
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.sidebar li {
+  width: 100%;
+}
+
+.sidebar a {
+  width: 100%;
+}
+.menu {
+  display: none;
+}
+@media (max-width: 800px) {
+  .hideOnMobile{
+    display: none;
+  }
+  .menu {
+    display: block;
+  }
+}
+@media (max-width: 400px) {
+  .sidebar{
+    width: 100%;
+  }
+}
+
+.bg {
+  display: grid;
+  grid-template-columns:1fr 1fr;
+  gap: 14px;
+  margin: 0 12px 0 12px;
+}
+
+@media (max-width: 800px) {
+  .bg {
+  display: grid;
+  grid-template-columns:1fr;
+  gap: 14px;
+  margin: 0 12px 0 12px;
+}
+}
+
+#caption {
+  text-align: center;
+  padding: 20px;
+  margin: 20px 0 20px 0;
+  font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+  color: #3F72AF;
+}
+#caption h3{
+  font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+  color: #3F72AF;
+}
+
+
+#video video {
+  display: block;
+  border-radius: 12px;
+  border: 2px;
+  margin: 20px auto;
+}
+@media (max-width: 800px) {
+  #video video{
+    width: 90%;
+  }
+  #video {
+    align-items: center;
+    margin: auto 0 auto 0;
+    display: none;
+  }
+  #caption h3{
+    display: none;
+  }
+  .cut {
+    display: none;
+  }
+  .container1 h2, h3{
+    font-size: 20px;  
+  }
+  .caption2 h2, h3{
+    font-size: 16px;
+  }
+}
+.hero{
+  display: grid;
+  grid-template-columns:1fr 1fr;
+  gap: 14px;
+  margin: 0 12px 0 12px;
+}
+.container1 {
+  background-image: url("drawingcloser.jpeg");
+  border-radius:12px;
+  background-position: center;
+  background-size: cover;
+}
+
+.container1 h2, h3{
+  color: #F9F7F7;
+  padding:10px 0 0 10px;
+}
+
+.container {
+  border-radius:12px;
+}
+
+.video2 {
+  border-radius:12px;
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 20vh;
+  overflow: hidden;
+}
+
+.bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.caption2 {
+  position: relative;
+  z-index: 1;
+  color: #F9F7F7;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
