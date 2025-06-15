@@ -96,7 +96,7 @@ nav li:first-child{
   margin: 20px auto;
   font-family: "Noto Sans KR", sans-serif;
   font-optical-sizing: auto;
-  color: #3F72AF;
+  color: #F9F7F7;
   height: 60vh;
   justify-content: center;
   align-items: center;
@@ -104,7 +104,8 @@ nav li:first-child{
 }
 
 #caption h2 {
-  padding-top: 30px;
+  width: 100%;
+  margin: 35px auto;
 }
 
 #below {
@@ -140,9 +141,6 @@ nav li:first-child{
 @media (max-width: 800px) {
   .bg-video1{
     top: -220px;
-  }
-  #caption h2{
-    padding-top: 0;
   }
 }
 @media (max-width: 800px) {
