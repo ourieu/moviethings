@@ -76,7 +76,7 @@ nav li:first-child{
 
 .bg {
   display: grid;
-  grid-template-columns:1fr 1fr;
+  grid-template-columns:1;
   gap: 14px;
   margin: 0 12px 0 12px;
 }
@@ -92,34 +92,60 @@ nav li:first-child{
 
 #caption {
   text-align: center;
+  padding-top: 20px;
+  margin: 20px auto;
+  font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+  color: #3F72AF;
+  height: 60vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+#caption h2 {
+  padding-top: 30px;
+}
+
+#below {
+  text-align: center;
   padding: 20px;
   margin: 20px 0 20px 0;
+}
+
+.bg-video1{
+  position: absolute;
+  top: -500px;
+  left: 0;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.bgsection {
+  border-radius:12px;
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 20vh;
+  overflow: hidden;
+}
+
+#below h3{
   font-family: "Noto Sans KR", sans-serif;
   font-optical-sizing: auto;
   color: #3F72AF;
-}
-#caption h3{
-  font-family: "Noto Sans KR", sans-serif;
-  font-optical-sizing: auto;
-  color: #3F72AF;
-}
-
-
-#video video {
-  display: block;
-  border-radius: 12px;
-  border: 2px;
-  margin: 20px auto;
 }
 @media (max-width: 800px) {
-  #video video{
-    width: 90%;
+  .bg-video1{
+    top: -220px;
   }
-  #video {
-    align-items: center;
-    margin: auto 0 auto 0;
-    display: none;
+  #caption h2{
+    padding-top: 0;
   }
+}
+@media (max-width: 800px) {
   #caption h3{
     display: none;
   }
