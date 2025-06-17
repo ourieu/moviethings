@@ -5,9 +5,6 @@
 
 body {
   min-height: 100vh;
-  background-image: url('daisies.jpg');
-  background-size: cover;
-  background-position: center;
 }
 
 header {
@@ -112,9 +109,32 @@ nav li:first-child{
 }
 
 #below {
-  text-align: center;
+  display: flex;
   padding: 20px;
   margin: 20px 0 20px 0;
+  flex-direction: row;
+}
+
+.decor1 {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.decor2 {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.decor1 img {
+  width: 20%;
+  height: auto;
+}
+
+.decor2 img {
+  width: 20%;
+  height: auto;
 }
 
 .bg-video1{
@@ -127,7 +147,17 @@ nav li:first-child{
   z-index: -1;
 }
 
+.bgsection1 {
+  width: 100%;
+  display: flex;
+  flex-grow: 1;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
 .bgsection {
+  text-align: center;
   border-radius:12px;
   position: relative;
   width: 100%;
