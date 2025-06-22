@@ -196,6 +196,7 @@ nav li:first-child{
   gap: 14px;
   margin: 0 12px 0 12px;
 }
+
 .container1 {
   background-image: url("drawingcloser.jpeg");
   border-radius:12px;
@@ -254,5 +255,29 @@ nav li:first-child{
 @media (max-width: 800px) {
   .below{
     font-size: 10px;
+  }
+}
+
+.hero2 {
+  padding: 20px 0;
+  margin: 0 12px 0 12px;
+}
+
+.hero2 h2{
+  font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+  color: #3F72AF;
+}
+
+.sad {
+  margin: 0 12px 0 12px;
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+  gap: 14px;
+}
+
+@media (max-width: 800px) {
+  .sad{
+   grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }
