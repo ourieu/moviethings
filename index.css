@@ -278,6 +278,9 @@ nav li:first-child{
 
 @media (max-width: 800px) {
   .sad{
-   grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 0 12px 0 12px;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr ;
+    gap: 14px;
   }
 }
