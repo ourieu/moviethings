@@ -281,6 +281,24 @@ nav li:first-child{
     margin: 0 12px 0 12px;
     display: grid;
     grid-template-columns:1fr 1fr 1fr;
-    gap: 14px;
+    gap: 5px;
   }
+}
+
+.hero3 {
+  padding: 20px 0;
+  margin: 0 12px 0 12px;
+}
+
+.hero3 h2{
+  font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+  color: #3F72AF;
+}
+
+.thriller {
+  margin: 0 12px 0 12px;
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+  gap: 14px;
 }
