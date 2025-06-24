@@ -298,7 +298,20 @@ nav li:first-child{
 
 .thriller {
   margin: 0 12px 0 12px;
-  display: grid;
-  grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+  display: flex;
+  flex-wrap: nowrap;
   gap: 14px;
+  overflow-x: auto;
+}
+
+.container5 {
+  width: 20%;
+  height: auto;
+  flex: 0 0 auto;
+}
+
+@media (max-width: 800px) {
+  .container5{
+    width: 50%;
+  }
 }
