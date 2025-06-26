@@ -296,16 +296,20 @@ nav li:first-child{
 
 .thriller {
   margin: 0 12px 0 12px;
-  display: flex;
-  flex-wrap: nowrap;
   gap: 14px;
-  overflow-x: auto;
+  overflow: hidden;
 }
+
+.slider {
+  display: flex;
+  transition: transform 0.3s ease;
+  gap: 10px;
+  }
 
 .container5 {
   width: 20%;
   height: auto;
-  flex: 0 0 auto;
+  flex-shrink: 0;
 }
 
 @media (max-width: 800px) {
