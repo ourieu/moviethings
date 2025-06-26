@@ -313,6 +313,9 @@ nav li:first-child{
 }
 
 @media (max-width: 800px) {
+  .thriller {
+    overflow-x: auto;
+  }
   .container5{
     width: 50%;
   }
