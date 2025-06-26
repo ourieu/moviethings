@@ -314,9 +314,8 @@ nav li:first-child{
 
 @media (max-width: 800px) {
   .thriller {
-    display: flex;
-    flex-wrap: nowrap;
     overflow-x: auto;
+    min-width: 50%;
   }
   .container5{
     flex: 0 0 auto;
