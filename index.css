@@ -92,7 +92,6 @@ nav li:first-child{
 
 #caption {
   text-align: center;
-  padding-top: 20px;
   margin: 20px auto;
   font-family: "Noto Sans KR", sans-serif;
   font-optical-sizing: auto;
@@ -103,10 +102,6 @@ nav li:first-child{
   display: flex;
 }
 
-#caption h2 {
-  width: 100%;
-  margin: 35px auto;
-}
 
 #below {
   display: flex;
@@ -157,6 +152,9 @@ nav li:first-child{
 }
 
 .bgsection {
+  justify-content: center;
+  align-items: center;
+  display: flex;
   text-align: center;
   border-radius:12px;
   position: relative;
