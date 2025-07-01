@@ -208,7 +208,9 @@ nav li:first-child{
 }
 
 .container {
-  border-radius:12px;
+  width: 20%;
+  height: auto;
+  flex-shrink: 0;
 }
 
 .video2 {
@@ -269,17 +271,18 @@ nav li:first-child{
 
 .sad {
   margin: 0 12px 0 12px;
-  display: grid;
-  grid-template-columns:1fr 1fr 1fr 1fr 1fr;
   gap: 14px;
+  overflow: hidden;
 }
 
 @media (max-width: 800px) {
-  .sad{
-    margin: 0 12px 0 12px;
-    display: grid;
-    grid-template-columns:1fr 1fr 1fr;
-    gap: 5px;
+  .sad {
+    overflow-x: auto;
+    min-width: 50%;
+  }
+  .container{
+    flex: 0 0 auto;
+    width: 50%;
   }
 }
 
