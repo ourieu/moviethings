@@ -266,7 +266,6 @@ nav li:first-child{
 .sad {
   margin: 0 12px 0 12px;
   gap: 14px;
-  overflow: hidden;
 }
 
 .container {
@@ -301,13 +300,13 @@ nav li:first-child{
 .thriller {
   margin: 0 12px 0 12px;
   gap: 14px;
-  overflow: hidden;
 }
 
 .slider {
   display: flex;
   transition: transform 0.3s ease;
   gap: 10px;
+  overflow: hidden;
   }
 
 .container5 {
