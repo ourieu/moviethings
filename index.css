@@ -276,8 +276,10 @@ nav li:first-child{
 
 
 @media (max-width: 800px) {
+  .hero2 h2{
+    font-size: 10px;
+  }
   .sad {
-    overflow-x: auto;
     min-width: 50%;
   }
   .container{
@@ -308,6 +310,13 @@ nav li:first-child{
   gap: 10px;
   overflow: hidden;
   }
+.drag-label {
+  font-size: 14px;
+  text-align: center;
+  color: #999;
+  margin-bottom: 5px;
+  opacity: 0.7;
+}
 
 .container5 {
   width: 20%;
@@ -316,12 +325,20 @@ nav li:first-child{
 }
 
 @media (max-width: 800px) {
+  .hero3 h2{
+    font-size: 10px;
+  }
   .thriller {
-    overflow-x: auto;
     min-width: 50%;
   }
   .container5{
     flex: 0 0 auto;
     width: 50%;
+  }
+  .slider {
+    overflow: auto;
+  }
+  .drag-label {
+    font-size: 8px;
   }
 }
