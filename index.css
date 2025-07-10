@@ -207,12 +207,6 @@ nav li:first-child{
   padding:10px 0 0 10px;
 }
 
-.container {
-  width: 20%;
-  height: auto;
-  flex-shrink: 0;
-}
-
 .video2 {
   border-radius:12px;
   position: relative;
@@ -275,6 +269,14 @@ nav li:first-child{
   overflow: hidden;
 }
 
+.container {
+  width: 20%;
+  height: auto;
+  flex-shrink: 0;
+  display: inline-block;
+}
+
+
 @media (max-width: 800px) {
   .sad {
     overflow-x: auto;
@@ -300,19 +302,23 @@ nav li:first-child{
 .thriller {
   margin: 0 12px 0 12px;
   gap: 14px;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .slider {
   display: flex;
   transition: transform 0.3s ease;
   gap: 10px;
+  white-space: nowrap;
+  cursor: grab;
+  scroll-behavior: smooth;
   }
 
 .container5 {
   width: 20%;
   height: auto;
   flex-shrink: 0;
+  display: inline-block;
 }
 
 @media (max-width: 800px) {
