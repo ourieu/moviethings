@@ -277,7 +277,7 @@ nav li:first-child{
 
 @media (max-width: 800px) {
   .hero2 h2{
-    font-size: 10px;
+    font-size: 15px;
   }
   .sad {
     min-width: 50%;
@@ -326,7 +326,7 @@ nav li:first-child{
 
 @media (max-width: 800px) {
   .hero3 h2{
-    font-size: 10px;
+    font-size: 15px;
   }
   .thriller {
     min-width: 50%;
