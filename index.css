@@ -273,7 +273,6 @@ nav li:first-child{
   width: 20%;
   height: auto;
   flex-shrink: 0;
-  display: inline-block;
 }
 
 
@@ -302,23 +301,19 @@ nav li:first-child{
 .thriller {
   margin: 0 12px 0 12px;
   gap: 14px;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 .slider {
   display: flex;
   transition: transform 0.3s ease;
   gap: 10px;
-  white-space: nowrap;
-  cursor: grab;
-  scroll-behavior: smooth;
   }
 
 .container5 {
   width: 20%;
   height: auto;
   flex-shrink: 0;
-  display: inline-block;
 }
 
 @media (max-width: 800px) {

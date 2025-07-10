@@ -49,7 +49,6 @@ function makeSliderDraggable(sliderId) {
 
   // Initial cursor style
   slider.style.cursor = 'grab';
-  slider.style.overflowX = 'hidden'; // Hide scrollbars
 }
 
 // Initialize sliders when DOM loads
