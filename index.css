@@ -223,7 +223,6 @@ nav li:first-child{
   width: 100%;
   height: 100%;
   object-fit: cover;
-  z-index: -1;
 }
 
 .caption2 {
@@ -264,7 +263,6 @@ nav li:first-child{
 }
 
 .sad {
-  margin: 0 12px 0 12px;
   gap: 14px;
 }
 
@@ -300,7 +298,6 @@ nav li:first-child{
 }
 
 .thriller {
-  margin: 0 12px 0 12px;
   gap: 14px;
 }
 
