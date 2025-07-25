@@ -7,73 +7,6 @@ body {
   min-height: 100vh;
 }
 
-header {
-  background-color: #3F72AF ;
-}
-
-nav ul {
-  width: 100%;
-    list-style: none;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
-
-nav li {
-  height: 50px;
-}
-
-nav a {
-  color: #F9F7F7;
-  text-decoration: none;
-  height: 100%;
-  padding : 0 10px;
-  display: flex;
-  align-items: center;
-
-}
-nav li:first-child{
-  margin-right: auto;
-}
-
-.sidebar {
-  background-color:  #3F72AF;
-  position: fixed;
-  top: 0;
-  right: 0;
-  height: 100vh;
-  width: 200px;
-  z-index: 999;
-  display: none;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-
-.sidebar li {
-  width: 100%;
-}
-
-.sidebar a {
-  width: 100%;
-}
-.menu {
-  display: none;
-}
-@media (max-width: 800px) {
-  .hideOnMobile{
-    display: none;
-  }
-  .menu {
-    display: block;
-  }
-}
-@media (max-width: 400px) {
-  .sidebar{
-    width: 100%;
-  }
-}
-
 .bg {
   display: grid;
   grid-template-columns:1;
@@ -108,28 +41,6 @@ nav li:first-child{
   padding: 20px;
   margin: 20px 0 20px 0;
   flex-direction: row;
-}
-
-.decor1 {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.decor2 {
-  justify-content: center;
-  align-items: center;
-  display: flex;
-}
-
-.decor1 img {
-  width: 20%;
-  height: auto;
-}
-
-.decor2 img {
-  width: 20%;
-  height: auto;
 }
 
 .bg-video1{
@@ -187,24 +98,6 @@ nav li:first-child{
   .caption2 h2, h3{
     font-size: 16px;
   }
-}
-.hero{
-  display: grid;
-  grid-template-columns:1fr 1fr;
-  gap: 14px;
-  margin: 0 12px 0 12px;
-}
-
-.container1 {
-  background-image: url("drawingcloser.jpeg");
-  border-radius:12px;
-  background-position: center;
-  background-size: cover;
-}
-
-.container1 h2, h3{
-  color: #F9F7F7;
-  padding:10px 0 0 10px;
 }
 
 .video2 {
