@@ -129,6 +129,11 @@ body {
   position: absolute;
 }
 
+.caption2 a {
+  color: #F9F7F7;
+  text-decoration: none;
+}
+
 .below {
   text-align: center;
   padding: 20px;
