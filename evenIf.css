@@ -172,6 +172,14 @@ nav a {
   max-width: 200px; /* optional: limit poster size */
   border-radius: 8px;
 }
+
+@media (max-width: 500px) {
+  .poster-mobile img {
+    width: 90%;
+    border-radius: 8px;
+  }
+}
+
 @media (max-width: 350px) {
   .poster-mobile img {
     width: 120%;
