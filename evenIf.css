@@ -134,3 +134,118 @@ nav a {
   align-items: center;       /* center horizontally */
   height: 100%;              /* <-- take full height of grid cell */
 }
+
+.movies-mobile {
+  display: none;
+}
+
+@media (max-width: 800px) {
+  .movies-mobile {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 20px;
+    padding-top: 50px;
+  }
+  .movies {
+    display: none;
+  }
+}
+
+.movie-grid-mobile {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  align-items: start;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.poster-mobile {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.poster-mobile img {
+  width: 60%;
+  max-width: 200px; /* optional: limit poster size */
+  border-radius: 8px;
+}
+@media (max-width: 350px) {
+  .poster-mobile img {
+    width: 90%;
+    max-width: 200px; /* optional: limit poster size */
+    border-radius: 8px;
+  }
+}
+
+.movie-info-mobile {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.movie-title-mobile {
+  font-size: 1.8rem;
+  font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  color: #ccc;
+}
+
+.movie-description-mobile {
+  font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #ccc;
+}
+
+.movie-director-mobile {
+  font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #ccc;
+  font-weight: bold;
+}
+  
+.rating-display-mobile {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 25px;
+}
+        
+.donut-chart-mobile {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: conic-gradient(
+      #fbfbfb 0% 75%, 
+      #bebebe 75% 100%
+  );
+    mask: radial-gradient(circle at center, transparent 55%, black 56%);
+    -webkit-mask: radial-gradient(circle at center, transparent 55%, black 56%);
+}
+        
+.rating-value-mobile {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.rating-mobile {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; /* push to bottom */
+  align-items: center;       /* center horizontally */
+  height: 100%;              /* <-- take full height of grid cell */
+}
