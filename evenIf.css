@@ -286,3 +286,62 @@ nav a {
   align-items: center;       /* center horizontally */
   height: 100%;              /* <-- take full height of grid cell */
 }
+
+.scenes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.scenes h2 {
+  justify-self: center;
+  font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+  color: #ccc;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.wide-v-arrow {
+  position: relative;
+  width: 30px;
+  height: 10px;
+  margin: 0px auto;
+  }
+        
+.wide-v-arrow::before, .wide-v-arrow::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  border-bottom: 4px solid #ccc;
+  }
+        
+  .wide-v-arrow::before {
+    left: 0;
+    transform: skewY(15deg);
+    transform-origin: bottom right;
+  }
+        
+.wide-v-arrow::after {
+  right: 0;
+  transform: skewY(-15deg);
+  transform-origin: bottom left;
+}
+
+.scenes-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 15px;
+  padding:7vw;
+}
+
+.scenes-grid img {
+  width: 100%;
+  aspect-ratio: 16 / 9;  /* change ratio here */
+  border: 3px solid #ccc;
+  border-radius: 8px;
+  object-fit: cover;
+}
