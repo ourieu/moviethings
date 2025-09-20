@@ -261,8 +261,8 @@ nav a {
   height: 100%;
   border-radius: 50%;
   background: conic-gradient(
-      #fbfbfb 0% 75%, 
-      #bebebe 75% 100%
+      #fbfbfb 0% 90%, 
+      #bebebe 90% 100%
   );
     mask: radial-gradient(circle at center, transparent 55%, black 56%);
     -webkit-mask: radial-gradient(circle at center, transparent 55%, black 56%);
