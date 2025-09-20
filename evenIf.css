@@ -187,14 +187,14 @@ nav a {
   }
 }
 
-@media (max-width: 250px) {
+@media (max-width: 330px) {
   .poster-mobile img {
     width: 100px;
     border-radius: 8px;
   }
 }
 
-@media (max-width: 300px) {
+@media (max-width: 330px) {
   .movie-grid-mobile {
   display: grid;
   grid-template-columns: 1fr;
@@ -233,7 +233,7 @@ nav a {
 }
 }
 
-@media (max-width: 300px) {
+@media (max-width: 330px) {
   .movie-description-mobile {
     font-size: 12px;
     text-align: center;
