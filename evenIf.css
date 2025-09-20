@@ -11,6 +11,17 @@ body {
   background-position: center;
 }
 
+@media (max-width: 380px) {
+  body {
+    min-height: 100vh;
+    background-image: url('evenIfMobile.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+
+
 header {
     background-color: transparent;
 }
