@@ -187,6 +187,24 @@ nav a {
   }
 }
 
+@media (max-width: 250px) {
+  .poster-mobile img {
+    width: 100px;
+    border-radius: 8px;
+  }
+}
+
+@media (max-width: 300px) {
+  .movie-grid-mobile {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  align-items: start;
+  padding: 20px;
+  border-radius: 12px;
+  }
+}
+
 .movie-info-mobile {
   display: flex;
   flex-direction: column;
@@ -212,6 +230,13 @@ nav a {
 @media (max-width: 350px) {
   .movie-description-mobile {
     font-size: 12px;
+}
+}
+
+@media (max-width: 300px) {
+  .movie-description-mobile {
+    font-size: 12px;
+    text-align: center;
 }
 }
 
